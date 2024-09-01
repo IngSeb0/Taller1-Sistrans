@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SuperAndes Modelado" id="E7874FC8-68FD-F69A-3384-0EFA381236B0" version="3.5">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 02:34:33 UTC</createdTime>
+<ownerDesignName>Super Andes</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E7874FC8-68FD-F69A-3384-0EFA381236B0</designId>
+</OSDM_Design>

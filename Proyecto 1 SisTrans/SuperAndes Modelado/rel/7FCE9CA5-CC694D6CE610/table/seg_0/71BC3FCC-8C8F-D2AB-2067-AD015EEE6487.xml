@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71BC3FCC-8C8F-D2AB-2067-AD015EEE6487" name="incluye">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrdenDeCompra_id" id="C92B3E85-3AC3-1FC1-7968-6E7CDA2D48B0">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AB4C4C6-7A28-021E-2CC5-531E89B235FA" referredColumn="26FF4165-37BA-DB50-A194-7B72521E3889"/>
+</associations>
+</Column>
+<Column name="DetalleProducto_id" id="8BC656DF-AC53-D5FB-67C1-A0978CA120D8">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9112F127-B36B-310F-42B9-57535C2B4EA9" referredColumn="4CE4C22A-A4EB-F8FF-81E9-44F11DE632F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B511B348-16E7-8D1E-A098-13BB9D97815A" name="incluye_PK">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C92B3E85-3AC3-1FC1-7968-6E7CDA2D48B0"/>
+<colUsage columnID="8BC656DF-AC53-D5FB-67C1-A0978CA120D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="211E9CEC-A4CC-D878-E90A-BA55A80A4A46" name="incluye_OrdenDeCompra_FK">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>672E56C6-D301-2365-F070-61530C733F01</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C92B3E85-3AC3-1FC1-7968-6E7CDA2D48B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF9D0FAF-E1B1-03EF-CF09-125EC0061DBD" name="incluye_DetalleProducto_FK">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>672E56C6-D301-2365-F070-61530C733F01</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BC656DF-AC53-D5FB-67C1-A0978CA120D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

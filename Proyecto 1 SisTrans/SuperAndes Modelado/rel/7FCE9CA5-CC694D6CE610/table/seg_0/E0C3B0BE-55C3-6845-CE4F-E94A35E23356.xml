@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0C3B0BE-55C3-6845-CE4F-E94A35E23356" name="Bodega">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>0D36F79E-A1F8-D2E7-89BD-003C8812B311</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="410B2989-4A36-3D36-DEED-F3A9191D37D8">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>E4B99AD4-F6CC-9361-547A-2253D977B1C9</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C1184575-726F-3034-1188-2F7C6003B6AA">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>68A0AAD0-CDD2-C684-D71E-93C6E5538C10</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tamaño" id="2744ADA1-983A-749A-71ED-19188FF9519E">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>759FC624-1C62-B2A6-6312-988C343A30E5</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidad" id="7C948C1E-7E34-70AB-A3CB-D7C56DB228A4">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>8A284D55-7C9E-9D0C-E797-7D86A28BBDE1</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sucursal_id" id="717ADE65-6251-DC43-4D45-90FC13A707F5">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>4846FE0F-299A-24D0-5F25-6F057213B5B6</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73EDAFFE-4D85-CB58-453B-2283EA8E5AD7" referredColumn="11821E83-274F-3FC8-F891-F74F653B780F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75AA73ED-1B9D-B070-F466-713B16354DCC" name="Bodega_PK">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>FF565E17-4A84-77B3-5A4C-35B980D349C7</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="410B2989-4A36-3D36-DEED-F3A9191D37D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DC7332F-A9BE-5D17-73DF-446FE613DD15" name="Bodega_sucursal_FK">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>8589669C-0CCF-FEF6-18DA-A4AE6C38F74F</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="717ADE65-6251-DC43-4D45-90FC13A707F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

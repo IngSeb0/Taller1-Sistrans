@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mantiene" directorySegmentName="seg_0" id="5F77D9AF-BF2E-F7E8-791A-FA806493C57F">
+<createdBy>Acer</createdBy>
+<createdTime>2024-09-01 22:11:09 UTC</createdTime>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<engineerTo>
+<item key="7FCE9CA5-7520-658C-21CB-CC694D6CE610" value="true"/>
+</engineerTo>
+<sourcePk>2910BB81-5468-CFD8-EAF0-2BF18E2C59E7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>94CA4C83-252B-0A3A-6E37-AAF206F59589</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EAABD443-1DED-4D37-CCB5-7D6C92600520</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94CA4C83-252B-0A3A-6E37-AAF206F59589" name="Producto">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 19:48:34 UTC</createdTime>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<engineerTo>
+<item key="7FCE9CA5-7520-658C-21CB-CC694D6CE610" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoBarras" id="95A80551-FECC-444B-A440-ED33B3259A86">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 19:48:49 UTC</createdTime>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<engineerTo>
+<item key="7FCE9CA5-7520-658C-21CB-CC694D6CE610" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="48F24FAB-D8D2-D5AE-CE52-A1FE264E6CEE">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 19:48:45 UTC</createdTime>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<engineerTo>
+<item key="7FCE9CA5-7520-658C-21CB-CC694D6CE610" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaExpiracion" id="B3778412-0B18-D16D-E8E9-67B8EA7341BB">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 19:49:34 UTC</createdTime>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<engineerTo>
+<item key="7FCE9CA5-7520-658C-21CB-CC694D6CE610" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="F62737DF-B0EB-9B91-119A-282C4ACDFFEE">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:26:52 UTC</createdTime>
+<generatorID>F6387B25-1BB9-38B1-B108-ECAD8ADE46F8</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<engineerTo>
+<item key="7FCE9CA5-7520-658C-21CB-CC694D6CE610" value="true"/>
+</engineerTo>
+<referedAttribute>626E2421-79EA-7A8D-CD87-419844CCBE6D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2910BB81-5468-CFD8-EAF0-2BF18E2C59E7" name="Producto PK">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:05:42 UTC</createdTime>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FCE9CA5-7520-658C-21CB-CC694D6CE610" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95A80551-FECC-444B-A440-ED33B3259A86</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="clasifica" directorySegmentName="seg_0" id="F6387B25-1BB9-38B1-B108-ECAD8ADE46F8">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:26:52 UTC</createdTime>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<engineerTo>
+<item key="7FCE9CA5-7520-658C-21CB-CC694D6CE610" value="true"/>
+</engineerTo>
+<sourcePk>97D23FE3-7C0E-45EA-19DD-8459C61DDA35</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>13348A42-8A54-1DE5-6A05-F8C058FFA489</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94CA4C83-252B-0A3A-6E37-AAF206F59589</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

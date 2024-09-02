@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1FABD80-C0D3-4747-2780-D1D405EDDE6C" name="Proveedor">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>FBB0E9ED-E7F0-E1C9-5DF8-4E2F26D83C15</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIT" id="5DF5D9D8-CB88-35F0-7AF2-658AFAEAFC85">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>6FBB19A4-18C4-A1BA-53F8-FDB7193F5D3C</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="A9853ED1-901A-B882-1522-D74F381312DC">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>4DD62501-4C0F-B8A1-967B-C871250D76FC</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="C138D60B-43B3-2F4E-7A43-489259D0EF02">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>F868F17F-C99C-4D78-E6A7-4B6D4FEF2571</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreContacto" id="82005024-4884-089C-74BE-3D1A771C52C9">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>37ED4B63-BFE4-750C-316C-E2FBFD923076</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefonoContacto" id="CD104339-B103-BD74-CE81-E35C93EEF4BC">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>C32F5E33-C206-0CB0-D71D-640859A0EA0A</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0254B4F8-B0DB-06D1-5A97-B449D7A02A7D" name="Proveedor_PK">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>780310B3-BA7C-ED65-5583-DD1D4D0C5D68</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DF5D9D8-CB88-35F0-7AF2-658AFAEAFC85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

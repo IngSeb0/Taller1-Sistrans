@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="570A4198-8F5F-5FC1-520B-E646060092BE" containerWithKeyObject="31BE35D7-C680-860E-3276-C5B9C02699FD" localFKIndex="044054F5-A455-A8D8-D2DF-3781E6A5CF12" name="DetalleOrden_OrdenDeCompra_FK">
+<createdBy>Acer</createdBy>
+<createdTime>2024-09-01 22:15:56 UTC</createdTime>
+<generatorID>19626C1E-F430-22EC-BDCD-E023E26F7F2D</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<referredTableLongName>OrdenDeCompra</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>030D3CAF-6433-B514-E91F-3ECE898797BB</referredTableID>
+<keyObject>0265F9EF-6E1C-3D4D-C5FC-F68AC8C6FDE1</keyObject>
+<referredKeyID>0265F9EF-6E1C-3D4D-C5FC-F68AC8C6FDE1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

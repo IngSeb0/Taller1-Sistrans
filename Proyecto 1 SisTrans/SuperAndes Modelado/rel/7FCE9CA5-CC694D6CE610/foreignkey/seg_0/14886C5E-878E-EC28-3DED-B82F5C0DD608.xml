@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="14886C5E-878E-EC28-3DED-B82F5C0DD608" containerWithKeyObject="E6A1FFB6-3031-0659-8DCC-274075AA98F0" localFKIndex="12A29C4E-2844-9C61-C794-6717985EC1CC" name="DetalleProducto_Producto_FK">
+<createdBy>Acer</createdBy>
+<createdTime>2024-08-29 20:39:20 UTC</createdTime>
+<generatorID>739ACE60-8FC0-7749-43FF-0841DA30760A</generatorID>
+<ownerDesignName>SuperAndes Modelado</ownerDesignName>
+<referredTableLongName>Producto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>03A802D8-873B-36B9-4492-5080D154BC04</referredTableID>
+<keyObject>BBE46427-68DE-3F6D-0BA6-B37B274CA48B</keyObject>
+<referredKeyID>BBE46427-68DE-3F6D-0BA6-B37B274CA48B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigoBarras</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
